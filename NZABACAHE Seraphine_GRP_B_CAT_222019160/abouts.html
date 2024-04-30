@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Linking to external stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css" title="style 1" media="screen, tv, projection, handheld, print"/>
+  <!-- Defining character encoding -->
+  <meta charset="utf-8">
+  <!-- Setting viewport for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Page</title>
+  <style>
+    /* Normal link */
+    body{
+      background-color: pink;
+    }
+    img{
+      width: 500px;
+      height: 400px;
+      border-radius: 20px;
+    }
+    a {
+      padding: 8px;
+      color: white;
+      background-color: red;
+      text-decoration: none;
+      margin-right: 25px;
+    }
+
+    /* Visited link */
+    a:visited {
+      color: blue;
+    }
+    /* Unvisited link */
+    a:link {
+      color: blue; /* Changed to lowercase */
+    }
+    /* Hover effect */
+    a:hover {
+      background-color: white;
+    }
+
+    /* Active link */
+    a:active {
+      background-color: white;
+    }
+
+    /* Extend margin left for search button */
+    button.btn {
+      margin-left: 25px; /* Adjust this value as needed */
+      margin-top: 8px;
+    }
+    /* Extend margin left for search button */
+    input.form-control {
+      margin-left: 1300px; /* Adjust this value as needed */
+
+      padding: 8px;
+     
+    }
+    .dropdown{
+      position: right;
+      display: inline-block;
+      direction: rtl;
+    }
+    .dropdown-contents{
+      display: none;
+      position: absolute;
+      min-width: 100px;
+      z-index: 1;
+    }
+    .dropdown-contents a{
+      color: blue;
+      padding: 12px;
+      display: block;
+      text-decoration: none;
+    }
+    .dropdown:hover .dropdown-contents{
+      display: block;
+    }
+    .dropdown-contents a:hover{
+      background-color: white;
+    }
+    .search{
+      margin-left: 800px;
+      padding: 5px;
+      height: 10px;
+      border-radius: 20px;
+    }
+    .search button{
+      background-color: blue;
+      border: none;
+      font-weight: bold;
+    }
+  </style>
+  
+<header>
+   
+
+</head>
+
+<body>
+  <form class="search" role="search" action="search.php">
+      <input type="search" placeholder="Search information" aria-label="Search">
+      <button type="submit">Search</button>
+    </form>
+  <ul style="list-style-type: none; padding: 0;">
+    <li style="display: inline; margin-right: 10px;"><a href="./home.html">HOME</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./abouts.html">ABOUT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="contacts.html">CONTACT</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./customers.html">CUSTOMER</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./employee.html">EMPLOYEE</a>
+  </li>
+    <li style="display: inline; margin-right: 10px;"><a href="./sales.html">SALES</a>
+  </li>
+  </a><li style="display: inline; margin-right: 10px;"><a href="./harvests.html">HAVERST</a>
+  </li>
+</a><li style="display: inline; margin-right: 10px;"><a href="./mushroom.html">MUSHROOM</a>
+  </li>
+  </a>
+  </li>
+    <li class="dropdown">
+      <a href="#" >Settings</a>
+      <div class="dropdown-contents">
+        <!-- Links inside the dropdown menu -->
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="logout.php">Logout</a>
+      </div>
+    </li><br><br>
+    </ul>
+
+</header>
+<section style=" color: black;">
+  <marquee><h1 style="color: blue;"> OUR MISSION TO SYSTEM </h1></marquee>
+<h2 style="color: green;">
+<ol type="number"> 
+MUSHROOM COMPANY is company found in kamonyi district at mugina sector.<br>this company was start in 12/8/2021 with 11 employees with purpose of facilitating people around the mugina sctor to leave in multinutritional with increasing balanced diet<br> to promote sacial well being to the people in this sector and world wide. <br>this company provide service such as distributing mushroom and ather kind of mushroom around the wolrd wide . <br>it helps customer to buy our priducts using online sevices and deliver the products to clients in right time. 
+<u>OUR MISSION</u><br>the company mission is to help people to leave in multinutritional with increasing balanced diet
+and giving training to same people you want.<br> 
+ </b></li>
+</ol>
+</section>
+
+
+  
+<footer>
+  <center> 
+    <b><h2>UR CBE BIT &copy, 2024 &reg, Designed by: SERAPHINE</h2></b>
+  </center>
+</footer>
+  
+</body>
+</html>
